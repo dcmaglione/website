@@ -1,11 +1,7 @@
 import { EDUCATION } from '../assets/data/education';
 
 const EducationCard = () => {
-  return (
-    <div class="gap-8 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 max-w-fit">
-      {EDUCATION.map(Card)}
-    </div>
-  );
+  return <div class="gap-8 max-w-fit">{EDUCATION.map(Card)}</div>;
 };
 
 const Card = ({ name, year, degree, url }) => (

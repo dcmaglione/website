@@ -13,14 +13,14 @@ const About = () => {
           <h2 class="text-3xl font-bold">Hi There!</h2>
           <p>
             I'm a Junior at Boston University pursuing a BA/MS in Computer
-            Science with a passion for development and IT. In CS, I enjoy
-            learning about software development, IT operations, and
-            cybersecurity, focusing on management.
+            Science with a passion for software development and IT operations.
+            Within CS, I possess a unique balance of technical depth alongside
+            strong interpersonal skills.
           </p>
           <p>
-            Outside of programming, you'll find me spending time with friends
+            Outside of work, you'll find me spending quality time with friends
             😁, skateboarding around the city 🛹, reading a good book 📚, or
-            enjoying a nice cup of coffee ☕.
+            enjoying a nice cup of coffee ☕!
           </p>
         </div>
       </div>
