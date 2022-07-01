@@ -14,7 +14,7 @@ const Home = () => {
         id="subtitle"
         class="m-4 font-mono text-2xl italic text-secondaryTextLight dark:text-secondaryTextDark"
       >
-        Aspiring Full Stack Developer
+        Full Stack Software Developer
       </h2>
       <div id="socials">
         <Socials />
