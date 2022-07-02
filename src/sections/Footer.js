@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div class="relative my-10 flex flex-col text-center xs:flex-row xs:text-justify justify-between">
-      <div class="text-xl">© 2022 Dominic Maglione</div>
+    <div className="relative my-10 flex flex-col text-center xs:flex-row xs:text-justify justify-between">
+      <div className="text-xl">© 2022 Dominic Maglione</div>
       <a
-        class="text-xl font-mono hover:text-accent"
+        className="text-xl font-mono hover:text-accent hover:font-bold transition-all"
         href="https://github.com/dcmaglione/website"
         target="_blank"
         rel="noopener noreferrer"

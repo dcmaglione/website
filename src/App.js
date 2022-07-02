@@ -9,16 +9,19 @@ import Footer from './sections/Footer';
 
 function App() {
   return (
-    <div class="app">
-      <MainContainer>
-        <Home />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Education />
-        <Footer />
-      </MainContainer>
+    // dark mode testing
+    <div className="">
+      <div className="app">
+        <MainContainer>
+          <Home />
+          <About />
+          <Experience />
+          <Projects />
+          <Skills />
+          <Education />
+          <Footer />
+        </MainContainer>
+      </div>
     </div>
   );
 }
