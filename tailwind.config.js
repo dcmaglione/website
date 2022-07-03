@@ -13,7 +13,7 @@ module.exports = {
       },
       colors: {
         // Accent
-        accent: '#81a1c1',
+        accent: '#5E81AC',
 
         // Light
         primaryBgLight: '#eceff4',

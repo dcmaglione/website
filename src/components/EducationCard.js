@@ -18,7 +18,7 @@ const Card = ({ name, year, degree, url }) => (
       {name}
     </a>
     <div className="flex flex-col gap-6 font-mono">
-      <ul className="text-lg italic text-accent">{year}</ul>
+      <ul className="text-lg italic text-accent font-medium">{year}</ul>
       <ul>{degree}</ul>
     </div>
   </div>

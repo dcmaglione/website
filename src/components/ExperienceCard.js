@@ -2,7 +2,7 @@ import { EXPERIENCE } from '../assets/data/experience';
 
 const ExperienceCard = () => {
   return (
-    <div className="gap-8 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 max-w-fit">
+    <div className="gap-8 grid grid-rows-auto grid-cols-1 lg:grid-rows-auto lg:grid-cols-2 max-w-fit">
       {EXPERIENCE.map(Card)}
     </div>
   );
@@ -28,7 +28,9 @@ const Card = ({ title, company, date, url, img }) => (
         >
           {title}
         </a>
-        <ul className="text-lg italic font-mono text-accent">{company}</ul>
+        <ul className="text-lg italic font-mono text-accent font-medium">
+          {company}
+        </ul>
       </div>
     </div>
     <div className="font-mono font-bold">{date}</div>

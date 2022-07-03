@@ -1,7 +1,7 @@
-import BU from '../imgs/bu.jpg';
-import BUILDS from '../imgs/builds.jpg';
-import UPE from '../imgs/upe.jpg';
-import WEGMANS from '../imgs/wegmans.jpg';
+import BU from '../imgs/experience/bu.jpg';
+import BUILDS from '../imgs/experience/builds.jpg';
+import UPE from '../imgs/experience/upe.jpg';
+import WEGMANS from '../imgs/experience/wegmans.jpg';
 
 export const EXPERIENCE = [
   {
@@ -27,7 +27,7 @@ export const EXPERIENCE = [
   },
   {
     title: 'Director of Recruitment',
-    company: 'UPE',
+    company: 'Upsilon Pi Epsilon',
     date: 'Apr 2021 --> Apr 2022',
     url: 'https://upe.bu.edu/',
     img: UPE,

@@ -12,7 +12,7 @@ const Home = () => {
       </h1>
       <h2
         id="subtitle"
-        className="m-4 font-mono text-2xl italic text-secondaryTextLight dark:text-secondaryTextDark"
+        className="m-4 font-mono font-medium text-2xl italic text-secondaryTextLight dark:text-secondaryTextDark"
       >
         Full Stack Software Developer
       </h2>

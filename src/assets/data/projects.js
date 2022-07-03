@@ -1,44 +1,57 @@
+import DOTFILES from '../imgs/projects/dotfiles.jpg';
+import PATHFINDING from '../imgs/projects/pathfinding.jpg';
+import PHOTOSHARE from '../imgs/projects/photoshare.jpg';
+import TESTCHAIN from '../imgs/projects/testchain.jpg';
+import WEBSITE_NEW from '../imgs/projects/website_new.jpg';
+import WEBSITE_OLD from '../imgs/projects/website_old.jpg';
+
 export const PROJECTS = [
   {
     title: 'Personal Website',
-    tech: ['JavaScript', 'React', 'Tailwind'],
+    techs: ['JavaScript', 'React', 'Tailwind'],
     date: '2022 Q3',
-    description: 'A personal website built with React and Tailwind CSS.',
+    desc: 'Personal website to showcase experiences, projects, and skills.',
     url: 'https://dcmaglione.com/',
+    img: WEBSITE_NEW,
   },
   {
     title: 'Dotfiles',
-    tech: ['C', 'Python', 'Shell'],
+    techs: ['C', 'Python', 'Shell'],
     date: '2021 Q2',
-    description: 'A personal dotfiles repository.',
+    desc: 'Personal dotfiles repository for various Linux distributions.',
     url: 'https://github.com/dcmaglione/dotfiles/',
+    img: DOTFILES,
   },
   {
     title: 'TestChain',
-    tech: ['C++'],
+    techs: ['C++'],
     date: '2022 Q1',
-    description: 'A blockchain-based testnet for the Ethereum network.',
+    desc: 'Blockchain-based testnet for the Ethereum network.',
     url: 'https://github.com/dcmaglione/TestChain/',
+    img: TESTCHAIN,
   },
   {
     title: 'Photoshare',
-    tech: ['TypeScript', 'Python', 'SQL'],
+    techs: ['TypeScript', 'Python', 'SQL'],
     date: '2022 Q1',
-    description: 'A photo sharing website built with TypeScript and SQL.',
+    desc: 'Photo sharing website to upload and share images with users.',
     url: 'https://github.com/dcmaglione/Photoshare/',
+    img: PHOTOSHARE,
   },
   {
     title: 'Pathfinding Visualizer',
-    tech: ['Python', 'Pygame'],
+    techs: ['Python', 'Pygame'],
     date: '2021 Q3',
-    description: 'A pathfinding visualizer built with Python and Pygame.',
+    desc: 'Pathfinding visualizer for the A* search algorithm.',
     url: 'https://github.com/dcmaglione/pathfinding-visualization/',
+    img: PATHFINDING,
   },
   {
     title: 'Old Website',
-    tech: ['JavaScript', 'React', 'Tailwind'],
+    techs: ['JavaScript', 'React', 'Tailwind'],
     date: '2021 Q3',
-    description: 'Old personal website built with React and Tailwind CSS.',
+    desc: 'Old personal website and first React project.',
     url: 'https://github.com/dcmaglione/dcmag.website/',
+    img: WEBSITE_OLD,
   },
 ];
