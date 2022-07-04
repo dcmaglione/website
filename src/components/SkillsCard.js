@@ -11,12 +11,12 @@ const SkillsCard = () => {
 const Card = ({ type, skills }) => (
   <div
     key={type}
-    className="flex flex-col gap-6 text-xl p-4 border-4 border-secondaryBgDark dark:border-secondaryBgLight shadow-md text-secondaryTextLight dark:text-secondaryTextDark bg-secondaryBgLight dark:bg-secondaryBgDark"
+    className="flex flex-col gap-6 text-xl p-4 border-4 border-primaryBgDark dark:border-primaryBgLight shadow-md bg-secondaryBgLight dark:bg-secondaryBgDark"
   >
     <h2 className="text-3xl font-bold underline underline-offset-8">{type}</h2>
-    <div className="flex flex-col gap-4 font-mono italic">
+    <div className="flex flex-col gap-4 font-mono italic text-secondaryTextLight dark:text-secondaryTextDark">
       {skills.map((skill) => (
-        <ul key={skill}>{skill}</ul>
+        <div key={skill}>{skill}</div>
       ))}
     </div>
   </div>

@@ -18,7 +18,7 @@ const Icon = ({ name, url, icon }) => (
     >
       {icon}
     </a>
-    <span className="absolute mt-2 px-1.5 left-1/2 -translate-x-1/2 text-sm font-semibold text-secondaryTextDark dark:text-secondaryTextLight bg-secondaryBgDark dark:bg-secondaryBgLight rounded-md shadow-md transition-all origin-center scale-0 group-hover:scale-100">
+    <span className="absolute mt-2 px-1.5 left-1/2 -translate-x-1/2 text-sm font-semibold text-secondaryTextDark dark:text-secondaryTextLight bg-secondaryBgDark dark:bg-secondaryBgLight shadow-md transition-all origin-center scale-0 group-hover:scale-100">
       {name}
     </span>
   </div>

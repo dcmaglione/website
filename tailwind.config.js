@@ -13,19 +13,21 @@ module.exports = {
       },
       colors: {
         // Accent
-        accent: '#5E81AC',
+        accent: '#e5383b',
 
         // Light
-        primaryBgLight: '#eceff4',
-        secondaryBgLight: '#e5e9f0',
-        primaryTextLight: '#2e3440',
-        secondaryTextLight: '#3b4252',
+        primaryBgLight: '#f8f9fa',
+        secondaryBgLight: '#e9ecef',
+        primaryTextLight: '#212529',
+        secondaryTextLight: '#343a40',
+        hoverTextLight: '#6c757d',
 
         // Dark
-        primaryBgDark: '#2e3440',
-        secondaryBgDark: '#3b4252',
-        primaryTextDark: '#eceff4',
-        secondaryTextDark: '#e5e9f0',
+        primaryBgDark: '#212529',
+        secondaryBgDark: '#343a40',
+        primaryTextDark: '#f8f9fa',
+        secondaryTextDark: '#e9ecef',
+        hoverTextDark: '#adb5bd',
       },
     },
     screens: {

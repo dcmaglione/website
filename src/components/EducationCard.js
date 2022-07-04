@@ -7,10 +7,10 @@ const EducationCard = () => {
 const Card = ({ name, year, degree, url }) => (
   <div
     key={name}
-    className="relative flex flex-col text-xl p-4 shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight bg-secondaryBgDark dark:bg-secondaryBgLight text-secondaryTextDark dark:text-secondaryTextLight"
+    className="relative flex flex-col text-xl p-4 shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight bg-secondaryBgDark dark:bg-secondaryBgLight text-primaryTextDark dark:text-primaryTextLight"
   >
     <a
-      className="text-3xl font-bold hover:text-accent transition-all"
+      className="text-3xl font-bold hover:text-hoverTextDark dark:hover:text-hoverTextLight transition-all"
       href={url}
       target="_blank"
       rel="noopener noreferrer"
@@ -18,8 +18,10 @@ const Card = ({ name, year, degree, url }) => (
       {name}
     </a>
     <div className="flex flex-col gap-6 font-mono">
-      <ul className="text-lg italic text-accent font-medium">{year}</ul>
-      <ul>{degree}</ul>
+      <div className="text-lg italic text-accent font-medium">{year}</div>
+      <div className="text-secondaryTextDark dark:text-secondaryTextLight">
+        {degree}
+      </div>
     </div>
   </div>
 );

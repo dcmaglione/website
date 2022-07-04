@@ -1,4 +1,5 @@
 import MainContainer from './components/MainContainer';
+import Header from './sections/Header';
 import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
@@ -12,6 +13,7 @@ function App() {
     // dark mode testing
     <div className="">
       <div className="app">
+        <Header />
         <MainContainer>
           <Home />
           <About />
