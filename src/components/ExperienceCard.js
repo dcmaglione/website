@@ -1,3 +1,4 @@
+import React from 'react';
 import { EXPERIENCE } from '../assets/data/experience';
 
 const ExperienceCard = () => {
@@ -21,7 +22,7 @@ const Card = ({ title, company, date, url, img }) => (
       />
       <div className="flex flex-col">
         <a
-          className="text-3xl font-bold hover:text-hoverTextLight dark:hover:text-hoverTextDark transition-all"
+          className="text-3xl font-bold text-secondaryTextLight dark:text-secondaryTextDark hover:text-hoverTextLight dark:hover:text-hoverTextDark transition-all"
           href={url}
           target="_blank"
           rel="noopener noreferrer"

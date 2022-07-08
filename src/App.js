@@ -1,5 +1,7 @@
+import React from 'react';
 import MainContainer from './components/MainContainer';
-import Header from './sections/Header';
+
+import Navbar from './sections/Navbar';
 import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
@@ -10,20 +12,17 @@ import Footer from './sections/Footer';
 
 function App() {
   return (
-    // dark mode testing
-    <div className="">
-      <div className="app">
-        <Header />
-        <MainContainer>
-          <Home />
-          <About />
-          <Experience />
-          <Projects />
-          <Skills />
-          <Education />
-          <Footer />
-        </MainContainer>
-      </div>
+    <div className="app">
+      <Navbar />
+      <MainContainer>
+        <Home />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Education />
+        <Footer />
+      </MainContainer>
     </div>
   );
 }

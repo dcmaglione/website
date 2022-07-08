@@ -1,3 +1,4 @@
+import React from 'react';
 import { SKILLS } from '../assets/data/skills';
 
 const SkillsCard = () => {
@@ -11,10 +12,10 @@ const SkillsCard = () => {
 const Card = ({ type, skills }) => (
   <div
     key={type}
-    className="flex flex-col gap-6 text-xl p-4 border-4 border-primaryBgDark dark:border-primaryBgLight shadow-md bg-secondaryBgLight dark:bg-secondaryBgDark"
+    className="flex flex-col gap-6 text-xl p-4 border-4 border-primaryBgDark dark:border-primaryBgLight shadow-md bg-secondaryBgLight dark:bg-secondaryBgDark text-secondaryTextLight dark:text-secondaryTextDark"
   >
     <h2 className="text-3xl font-bold underline underline-offset-8">{type}</h2>
-    <div className="flex flex-col gap-4 font-mono italic text-secondaryTextLight dark:text-secondaryTextDark">
+    <div className="flex flex-col gap-4 font-mono italic">
       {skills.map((skill) => (
         <div key={skill}>{skill}</div>
       ))}

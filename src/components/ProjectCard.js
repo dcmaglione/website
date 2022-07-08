@@ -1,3 +1,4 @@
+import React from 'react';
 import { PROJECTS } from '../assets/data/projects';
 
 const ProjectCard = () => {
@@ -11,7 +12,7 @@ const ProjectCard = () => {
 const Card = ({ title, techs, date, desc, url, img }) => (
   <div
     key={title}
-    className="relative flex flex-col gap-4 text-xl p-4 shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight bg-secondaryBgDark dark:bg-secondaryBgLight text-primaryTextDark dark:text-primaryTextLight"
+    className="relative flex flex-col gap-4 text-xl p-4 shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight bg-secondaryBgDark dark:bg-secondaryBgLight text-secondaryTextDark dark:text-secondaryTextLight"
   >
     <img
       className="h-max w-max border-2 border-primaryBgDark dark:border-primaryBgLight"

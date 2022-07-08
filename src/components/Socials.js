@@ -1,3 +1,4 @@
+import React from 'react';
 import { SOCIALS } from '../assets/data/socials';
 
 const Socials = () => {
