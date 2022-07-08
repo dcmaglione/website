@@ -1,7 +1,7 @@
 import React from 'react';
 import MainContainer from './components/MainContainer';
 
-import Navbar from './sections/Navbar';
+import Navbar from './components/Navbar';
 import Home from './sections/Home';
 import About from './sections/About';
 import Experience from './sections/Experience';
