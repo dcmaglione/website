@@ -15,7 +15,7 @@ const Card = ({ title, techs, date, desc, url, img }) => (
     className="relative flex flex-col gap-4 text-xl p-4 shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight bg-secondaryBgDark dark:bg-secondaryBgLight text-secondaryTextDark dark:text-secondaryTextLight"
   >
     <img
-      className="h-max w-max border-2 border-primaryBgDark dark:border-primaryBgLight"
+      className="w-max border-2 border-primaryBgDark dark:border-primaryBgLight"
       src={img}
       alt={title}
     />

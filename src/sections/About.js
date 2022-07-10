@@ -15,7 +15,7 @@ const About = () => {
           <img
             src={PFP}
             alt="Profile"
-            className="max-w-xs xs:max-w-sm h-full shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight"
+            className="max-w-xs xs:max-w-sm shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight"
           />
         </div>
         <div className="flex flex-col gap-4 text-xl text-secondaryTextLight dark:text-secondaryTextDark">
