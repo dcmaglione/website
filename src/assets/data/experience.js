@@ -8,7 +8,7 @@ export const EXPERIENCE = [
     title: 'Teaching Assistant',
     company: 'Boston University',
     date: 'Sep 2022 --> Present',
-    url: 'https://www.bu.edu/',
+    url: 'https://www.bu.edu/academics/cas/courses/cas-cs-411/',
     img: BU,
   },
   {
@@ -22,7 +22,7 @@ export const EXPERIENCE = [
     title: 'Course Assistant',
     company: 'Boston University',
     date: 'Sep 2021 --> Sep 2022',
-    url: 'https://www.bu.edu/',
+    url: 'https://www.bu.edu/academics/cas/courses/cas-cs-210/',
     img: BU,
   },
   {
