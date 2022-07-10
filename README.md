@@ -1,2 +1,2 @@
 # website
-An in-progress redesign of my personal website.
+Personal website built and designed from scratch using React and Tailwind CSS.
