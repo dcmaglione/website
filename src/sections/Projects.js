@@ -8,7 +8,7 @@ const Projects = () => {
       className="relative my-16 flex flex-col scroll-mt-32 xs:scroll-mt-24"
     >
       <div className="mb-8 text-5xl font-mono font-bold underline underline-offset-8">
-        Projects    
+        Projects   
       </div>
       <div className="flex flex-col items-center xs:items-start gap-4">
         <ProjectCard />

@@ -1,18 +1,27 @@
 export const SKILLS = [
   {
     type: 'Languages',
-    skills: ['✱ C', '✱ C++', 'C#', '✱ Python', 'Java', 'SQL', 'OCaml', 'Assembly'],
+    skills: [
+      '✱ C',
+      '✱ C++',
+      'C#',
+      '✱ Python',
+      'Java',
+      'SQL',
+      'OCaml',
+      'Assembly',
+    ],
   },
   {
-    type: 'Systems    ',
+    type: 'Systems',
     skills: ['✱ Linux', 'Windows', '✱ Bash', 'PowerShell', 'QEMU/KVM'],
   },
   {
-    type: 'Web           ',
+    type: 'Web',
     skills: ['HTMl', 'CSS', 'SCSS', 'JavaScript', 'React', 'Tailwind'],
   },
   {
-    type: 'Tools         ',
+    type: 'Tools',
     skills: ['✱ Git', 'AWS', 'Docker', 'Jenkins', '✱ Vim', 'Emacs', '✱ LaTeX'],
   },
 ];
