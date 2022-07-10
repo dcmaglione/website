@@ -1,15 +1,22 @@
 import React from 'react';
+import PFP from '../assets/imgs/pfp.jpeg';
 
 const About = () => {
   return (
-    <div id="about" className="relative py-16 flex flex-col">
+    <div
+      id="about"
+      className="relative my-16 flex flex-col scroll-mt-32 xs:scroll-mt-24"
+    >
       <div className="mb-8 text-5xl font-mono font-bold underline underline-offset-8">
         About       
       </div>
-      <div className="gap-10 flex flex-col md:flex-row items-center xs:items-start">
+      <div className="gap-10 flex flex-col lg:flex-row items-center xs:items-start">
         <div>
-          <div className="p-8 w-72 h-96 bg-secondaryBgDark dark:bg-secondaryBgLight shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight"></div>
-          {/* Image goes here */}
+          <img
+            src={PFP}
+            alt="Profile"
+            className="max-w-xs xs:max-w-sm h-full shadow-md border-4 border-primaryBgDark dark:border-primaryBgLight"
+          />
         </div>
         <div className="flex flex-col gap-4 text-xl text-secondaryTextLight dark:text-secondaryTextDark">
           <h2 className="text-3xl font-bold">Hi There!</h2>
