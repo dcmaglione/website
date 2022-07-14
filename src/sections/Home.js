@@ -4,7 +4,7 @@ import '../index.css';
 
 const Home = () => {
   return (
-    <div className="relative m-auto flex flex-col items-center justify-center text-center h-screen">
+    <div className="relative flex flex-col items-center justify-center text-center h-screen">
       <h1
         id="title"
         className="m-2 text-7xl font-bold tracking-wide dark:text-primaryTextDark"

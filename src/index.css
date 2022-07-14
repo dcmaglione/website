@@ -4,7 +4,7 @@
 
 @layer components {
   .app {
-    @apply m-0 p-0 h-screen w-screen overflow-auto fixed scroll-smooth bg-primaryBgLight dark:bg-primaryBgDark;
+    @apply m-0 p-0 h-full w-full overflow-auto fixed scroll-smooth bg-primaryBgLight dark:bg-primaryBgDark;
   }
 }
 
