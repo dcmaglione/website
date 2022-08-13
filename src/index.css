@@ -5,8 +5,17 @@
 @tailwind utilities;
 
 @layer components {
+  #root {
+    @apply w-full min-h-screen;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply overflow-auto bg-primaryBgLight dark:bg-primaryBgDark;
+  }
   .app {
-    @apply m-0 p-0 h-full w-full overflow-auto fixed scroll-smooth bg-primaryBgLight dark:bg-primaryBgDark;
+    @apply bg-primaryBgLight dark:bg-primaryBgDark;
   }
 }
 
