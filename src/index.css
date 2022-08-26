@@ -15,7 +15,7 @@
     @apply overflow-auto bg-primaryBgLight dark:bg-primaryBgDark;
   }
   .app {
-    @apply bg-primaryBgLight dark:bg-primaryBgDark;
+    @apply bg-primaryBgLight dark:bg-primaryBgDark transition-colors duration-300;
   }
 }
 

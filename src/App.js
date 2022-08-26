@@ -13,8 +13,8 @@ import Footer from './sections/Footer';
 function App() {
   return (
     <div className="app">
-      <Navbar />
       <MainContainer>
+        <Navbar />
         <Home />
         <About />
         <Experience />
