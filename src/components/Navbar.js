@@ -13,13 +13,14 @@ const Navbar = () => {
         DCMAG
       </a>
       <div className="flex flex-row gap-4">
-        <ThemeIcon />
+        {/* <ThemeIcon /> */}
         <DropMenu />
       </div>
     </div>
   );
 };
 
+// FIX BACKGROUND BEFORE RE-ENABLING
 const ThemeIcon = () => {
   const [darkTheme, setDarkTheme] = DarkMode();
   const handleMode = () => setDarkTheme(!darkTheme);
