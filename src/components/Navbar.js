@@ -20,7 +20,7 @@ const Navbar = () => {
   );
 };
 
-// FIX BACKGROUND BEFORE RE-ENABLING
+//TODO: FIX BACKGROUND BEFORE RE-ENABLING
 const ThemeIcon = () => {
   const [darkTheme, setDarkTheme] = DarkMode();
   const handleMode = () => setDarkTheme(!darkTheme);

@@ -18,13 +18,13 @@ export const EXPERIENCE = [
     url: 'https://builds.cc/',
     img: BUILDS,
   },
-  {
-    title: 'Systems Engineering Intern',
-    company: 'US Federal Government',
-    date: 'May 2022 --> Aug 2022',
-    url: 'https://www.whitehouse.gov/',
-    img: USA,
-  },
+  // {
+  //   title: 'Systems Engineering Intern',
+  //   company: 'US Federal Government',
+  //   date: 'May 2022 --> Aug 2022',
+  //   url: 'https://www.whitehouse.gov/',
+  //   img: USA,
+  // },
   {
     title: 'Course Assistant',
     company: 'Boston University',
